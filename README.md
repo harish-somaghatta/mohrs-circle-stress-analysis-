@@ -28,8 +28,7 @@ All plots are saved as PNG files.
 ├── MohrCirc_Gr10_Avg.PNG
 └── MohrCirc_Gr10_VolAvg.PNG
 
-
----
+```text
 
 ## Input File Format
 
