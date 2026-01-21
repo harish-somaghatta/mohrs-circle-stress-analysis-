@@ -11,21 +11,24 @@ All plots are saved as PNG files.
 ## Repository Structure
 
 ```text
-├── README.md
-├── requirements.txt
-├── src/
-│   └── MohrCircle.py
+.
 ├── input/
 │   ├── Gr10_MatPt1.dat
 │   ├── Gr10_MatPt2.dat
 │   ├── ...
 │   └── Gr10_MatPt10.dat
-└── results/
-    ├── MohrCirc_Gr10_MatPt1.PNG
-    ├── ...
-    ├── MohrCirc_Gr10_MatPt10.PNG
-    ├── MohrCirc_Gr10_Avg.PNG
-    └── MohrCirc_Gr10_VolAvg.PNG
+├── results/
+│   ├── MohrCirc_Gr10_MatPt1.PNG
+│   ├── MohrCirc_Gr10_MatPt2.PNG
+│   ├── ...
+│   ├── MohrCirc_Gr10_MatPt10.PNG
+│   ├── MohrCirc_Gr10_Avg.PNG
+│   └── MohrCirc_Gr10_VolAvg.PNG
+├── src/
+│   └── MohrCircle.py
+├── README.md
+├── Task_MohrCircle.pdf
+└── requirements.txt
 
 ```
 ## Sample Output (Average Stress Tensor)
