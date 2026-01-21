@@ -51,6 +51,18 @@ python src/MohrCircle.py Gr10 MatPt dat 10
 -9.9840942380e+02  1.7068065186e+03  5.1543750000e+02
  2.4667868040e+02  5.1543750000e+02 -1.4615225220e+02
 ```
+## Implementation Overview
+The script follows this workflow:
+1. Read stress tensors + volume from all material point files
+2. Compute:
+ - Simple (unweighted) average stress tensor
+ - Volume-weighted average stress tensor
+3. Compute principal stresses (eigenvalues)
+4. Compute principal stresses (eigenvalues)
+ - Each material point
+ - Simple average
+ - Volume-weighted average
+
 ## Output
 The script generates PNG files:
 - Individual material points: `MohrCirc_<FilePrefixStr>_<MatPtStr><n>.PNG` (e.g., `MohrCirc_Gr10_MatPt1.PNG`).
